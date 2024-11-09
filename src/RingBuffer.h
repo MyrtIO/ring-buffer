@@ -27,7 +27,7 @@ public:
         return count;
     }
 
-    size_t availableForWrite() {
+    int availableForWrite() {
         return Size - count;
     }
 
